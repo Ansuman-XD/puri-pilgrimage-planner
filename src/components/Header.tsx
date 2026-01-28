@@ -8,9 +8,9 @@ import { hotelInfo } from "@/lib/data";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Rooms", href: "/rooms" },
-  { name: "Experiences", href: "/#experiences" },
-  { name: "Reviews", href: "/#reviews" },
-  { name: "Contact", href: "/#contact" },
+  { name: "Experiences", href: "/experiences" },
+  { name: "Reviews", href: "/reviews" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export const Header = () => {
