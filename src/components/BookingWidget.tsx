@@ -36,12 +36,12 @@ export const BookingWidget = ({ variant = "hero" }: BookingWidgetProps) => {
   return (
     <div
       className={cn(
-        "rounded-xl border border-border shadow-lg",
-        isHero ? "bg-card p-6 md:p-8" : "bg-card p-4"
+        "rounded-xl border border-border shadow-lg overflow-hidden",
+        isHero ? "bg-card p-4 md:p-6" : "bg-card p-4"
       )}
     >
       {isHero && (
-        <h3 className="font-serif text-xl md:text-2xl font-bold text-foreground mb-6">
+        <h3 className="font-serif text-lg md:text-xl font-bold text-foreground mb-4 truncate">
           Book Your Stay
         </h3>
       )}
